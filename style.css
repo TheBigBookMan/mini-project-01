@@ -1,0 +1,103 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    background-color: yellowgreen;
+}
+
+header h1 {
+    text-align: center;
+    border: rgba(234, 71, 71, 0.685) solid 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    background-color: yellow;
+}
+
+
+nav ul {
+    display: flex; 
+    margin: 0 auto;
+}
+
+nav li {
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: justify;
+    
+}
+
+.main {
+    position: relative;
+    top: 130px;
+    background-color: yellow;
+    padding-left: 10px;
+}
+
+figure {
+    display: block;
+    margin: 10px auto;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.figcaption-1 {
+    margin-top: -10px;
+}
+
+.image-1 {
+    position: relative;
+    margin-right: 200px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.image-2 {
+    position: relative;
+    margin-left: 20px;
+}
+
+.image-3 {
+    position: relative;
+    margin-left: 20px;
+}
+
+form {
+    background-color: aqua;
+    position: relative;
+   
+}
+
+#contact-form {
+    margin: 10px;
+    position: relative;
+}
+
+#usersname {
+    display: inline;
+    margin: 0 auto;
+}
+
+#email {
+    display: inline;
+    margin: 0 auto;
+}
+
+#send {
+    margin-top: 10px;
+    
+}
